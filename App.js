@@ -23,7 +23,6 @@ function PainelTime({ nome, pontos, cor, onPontos }) {
     </View>
   );
 }
-
 export default function App() {
   const [nos, setNos] = useState(0);
   const [eles, setEles] = useState(0);
